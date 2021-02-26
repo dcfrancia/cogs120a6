@@ -2,12 +2,12 @@
 <head>
 <title>Login</title>
 	<link rel ="stylesheet" type="text/css" href="css/login.css">
-	<script type="text/javascript">
-		document.getElementById("myButton").onclick = function () {
-			location.href = "FirstPage.html";
-		};
-	</script>
-<body>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <script src="js/javascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<body style="background-color: #cdf3f3;">
 	<div class="loginbox">
 	<img src="images/user.png" class="avatar">
 	<h1>Login</h1>
@@ -16,11 +16,9 @@
 		<input type="text" name="" placeholder="Enter Username">
 		<p>Password</p>
 		<input type="password" name="" placeholder="Enter Password">
-		<input type="submit" name="" value="Login">
+		<a href="login.html" class="btn btn-info" role="button" >Login</a><br>
 		<a href="#">Lost your password?</a><br>
 		<a href="#">Don't have an account?</a>
-		<a href="login.html" class="btn btn-secondary btn-lg active" role="button" >New Task</a>
-		<button id="myButton" class="float-left submit-button" > My Home</button>
 
 	</form>
 	</div>

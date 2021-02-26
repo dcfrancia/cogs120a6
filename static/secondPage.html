@@ -90,7 +90,7 @@ ul li.checked::before {
 
 /* Style the header */
 .header {
-  background-color: #8a8a8a;
+  background-color: #85d6d6;
   padding: 30px 40px;
   color: white;
   text-align: center;
@@ -138,7 +138,7 @@ a {text-align: center;}
 </head>
 
 
-<body>
+<body style="background-color: #cdf3f3;">
 
     <div id="myDIV" style="text-align:center" class="header">
         <input type="text" id="myInput" placeholder="Enter Task Here...">
@@ -168,7 +168,7 @@ a {text-align: center;}
         </div>
 
         <div style="text-align:center">    
-            <a href="index.html" class="btn btn-secondary btn-lg active" role="button" >Add New Task</a>
+            <a href="login.html" class="btn btn-secondary btn-lg active" role="button" >Add New Task</a>
             <!-- more links here -->
           </div>
 
@@ -177,5 +177,22 @@ a {text-align: center;}
            </form>
           
     
+
+ <script>
+ 
+ function newElement() {
+  var li = document.createElement("li");
+  var inputValue = document.getElementById("myInput").value;
+  var t = document.createTextNode(inputValue);
+  li.appendChild(t);
+  if (inputValue === '') {
+    alert("You must write something!");
+  } else {
+    document.getElementById("myUL").appendChild(li);
+  }
+ 
+
+
+}</script>          
 </body>
 </html>

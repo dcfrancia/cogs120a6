@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: url(backgroundImg.jpg);
+	background-color: #00cccc;
 	background-size: cover;
 	background-position: center;
 	font-family: sans-serif;
@@ -10,7 +10,7 @@ body{
 .loginbox{
 	width: 320px;
 	height: 480px;
-	background: rgb(62, 87, 139);
+	background: #85d6d6;
 	color: #fff;
 	top: 50%;
 	left: 50%;
@@ -50,7 +50,7 @@ h1{
 
 .loginbox input[type="text"], input[type="password"]{
 	border: none;
-	border-bottom: 1px solid #fff;
+	border-bottom: 2px solid #fff;
 	background: transparent;
 	outline: none;
 	height: 40px;
